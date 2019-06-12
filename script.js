@@ -4,7 +4,7 @@
 
 // variables must start with alphabets or with '$' or '_'
 // variables does not contain special charcters other than '$' or '_'
-/*
+
 console.log("hello js!!!");
 
 var firstName = "chandan";
@@ -21,12 +21,12 @@ console.log(job)
 
 job = 'teacher'
 console.log(job)
-*/
+
 
 /*************************** 
 *    Variable mutation and type coercion
 */
-/*
+
 var name = 'john';
 var age = 28;
 
@@ -47,14 +47,12 @@ alert(name + ' ' + ' is a ' + age + ' yrar old ' + job + '. Is he married? '+ is
 
 var lName = prompt("Whats his last name?");
 console.log(name + ' ' + lName);
-*/
-
 
 
 /*************************** 
 *    Js operators
 */
-/*
+
 var year, yearJohn, yearMark;
 now = 2018;
 ageJohn = 28;
@@ -80,7 +78,7 @@ console.log(typeof ageJohn);
 console.log(typeof "hey! js");
 var x;
 console.log(typeof x);
-*/
+
 
 /*************************** 
 *    Js operators
