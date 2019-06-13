@@ -115,3 +115,38 @@ x++;
 console.log(x);
 x--;
 console.log(x);
+
+/*****************************************************************************************
+*    truthy and falsy values ans equality operators '==' '==='
+*/
+
+//   Falsy values: undefined, 0, null, '', NaN
+//   Truthy values: not falsy
+
+var height;
+
+if(height){
+    console.log('the variable is defined!!!');
+}
+else{
+    console.log('the variable is not defined!!!');
+}
+
+height = 0;     //defined variable
+if(height || height === 0){
+    console.log('the variable is defined!!!');
+}
+else{
+    console.log('the variable is not defined!!!');
+}
+
+// quality operator
+// '==' does a type coercion
+// '===' is a strict equality check
+height = 23;
+
+if(height == '23'){
+    console.log("the '==' does a type coercion!!!");
+}
+
+
